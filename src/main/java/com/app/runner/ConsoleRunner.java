@@ -42,6 +42,7 @@ public class ConsoleRunner implements CommandLineRunner{
 		 * .forEach(System.out::println);
 		 */
 		
+		
 		PageRequest p=PageRequest.of(1, 2);
 		repo.findAll(p)
 		.forEach(System.out::println);
